@@ -4,6 +4,8 @@
   "homepage": "https://connor-mccormick.github.io/Togthr-template-React",
   "private": true, 
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
