@@ -13,13 +13,16 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <Router>
+    <React.StrictMode>
+      <Home />
+    </React.StrictMode>
+    /*<Router>
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
-    </Router>
+    </Router>*/
   )
 }
 
