@@ -1,6 +1,5 @@
 {
-  "name": "togthr-template",
-  "homepage": "https://connor-mccormick.github.io/Togthr-template-React",
+  "name": "connor-mccormick.github.io",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
